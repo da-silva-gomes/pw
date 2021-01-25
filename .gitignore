@@ -3,5 +3,4 @@
 package-lock.json
 .eslintrc.json
 
-/dist/
 /node_modules/
