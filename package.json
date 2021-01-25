@@ -4,10 +4,11 @@
   "description": "personal website",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "build-dev": "webpack --config webpack.dev.js",
     "serve": "http-server --path dist/",
-    "watch": "NODE_ENV=development webpack --config webpack.config.js --watch",
     "clean": "rm -Rf dist/*",
-    "build": "webpack --config webpack.config.js --mode=development",
+    "watch": "NODE_ENV=development webpack --config webpack.dev.js --watch",
     "dev": "npm run clean & npm run watch & npm run serve",
     "lint": "eslint 'src/*.js' --fix & npx stylelint 'src/*.scss' --fix"
   },

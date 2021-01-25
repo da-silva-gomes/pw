@@ -1,2 +1,4 @@
 import './app.scss';
-console.log('Hi');
+
+let oi;
+console.log('🚨 DEBUG ~ oi', oi);

@@ -3,6 +3,7 @@ module.exports = {
     './src/**/*.html',
     './src/**/*.js',
   ],
+  prefix: 'pw-',
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
