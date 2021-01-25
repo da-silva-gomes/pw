@@ -3,4 +3,5 @@
 package-lock.json
 .eslintrc.json
 
+# Add /dist/ if not necessary to commit those files
 /node_modules/
