@@ -1,4 +1,4 @@
 import './app.scss';
 
-let oi;
-console.log('🚨 DEBUG ~ oi', oi);
+let loaded = document.readyState;
+console.log('🚨 DEBUG ~ loaded', loaded);
