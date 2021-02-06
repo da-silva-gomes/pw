@@ -8,7 +8,7 @@
     "build-dev": "webpack --config webpack.dev.js",
     "serve": "http-server --path dist/",
     "clean": "rm -Rf dist/*",
-    "watch": "NODE_ENV=development webpack --config webpack.dev.js --watch",
+    "watch": "NODE_ENV=development webpack --config webpack.dev.js --watch & npm run lint",
     "dev": "npm run clean & npm run watch & npm run serve",
     "lint": "eslint 'src/*.js' --fix & npx stylelint 'src/*.scss' --fix"
   },

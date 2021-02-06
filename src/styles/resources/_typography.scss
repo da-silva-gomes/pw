@@ -1,5 +1,5 @@
 p, ul, li, q, address, span {
-  @apply font-titillium;
+  @apply font-grotesk;
   @apply text-lg;
 }
 
@@ -9,15 +9,15 @@ span {
 
 a {
   @apply text-lg;
-  @apply font-titillium;
+  @apply font-grotesk;
 }
 
 h1 {
-  @apply font-playfair;
+  @apply font-mono;
   @apply text-7xl;
 }
 
 h2 {
-  @apply font-playfair;
+  @apply font-mono;
   @apply text-3xl;
 }
