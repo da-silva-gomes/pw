@@ -1,0 +1,13 @@
+.hero {
+  a {
+    @apply text-6xl;
+  }
+
+  img {
+    @apply absolute;
+    @apply w-98;
+    @apply top-48;
+    @apply right-80;
+    @apply -z-1;
+  }
+}
