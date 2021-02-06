@@ -1,3 +1,2 @@
 @import "../node_modules/scss-reset/_reset.scss", "tailwindcss/base", "tailwindcss/components", "tailwindcss/utilities";
-@import
-  "../src/styles/blocs/navbar";
+@import "../src/styles/resources/fonts", "../src/styles/resources/typography", "../src/styles/blocs/navbar";
